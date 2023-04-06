@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -6,9 +6,33 @@
   box-sizing: border-box;
 }
 
+:root {
 
+  // Primário
+
+  --AzulBrilhante: #3A7BFD;
+  
+  //Tema Claro
+
+  --CinzaMtoClaro: #F9F9F9;
+  --AzulCinzaMuitoClaro: #E3E4F1;
+  --AzulCinzaClaro: #D1D2DA;
+  --AzulCinzaEscuro: #9293A4;
+  --AzulCinzaMtoEscuro: #484B6A;
+
+  // Tema Escuro
+
+  --AzulMuitoEscuro: #161721;
+  --AzulDessaturadoMtoEscuro: #24263C;
+  --AzulCinzaClaro: #C9CCE7;
+  --AzulCinzaClaroPairar: #E3E4F1;
+  --AzulCinzaEscuro: #777992;
+  --AzulCinzaMtoEscuro: #4C4F65;
+  --AzulCinzaMtoEscuroTwo: #39394B;
+
+}
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
 }

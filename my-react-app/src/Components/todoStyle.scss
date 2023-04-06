@@ -1,0 +1,23 @@
+.container {
+    background-color: var(--AzulMuitoEscuro);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    .containerNav {
+        margin: 0 auto;
+
+        .nav{
+            position: relative;
+            
+            .title{
+                position:absolute;
+                color: white;
+                font-weight: 700;
+                font-size: 40px;
+                margin-left: 30vw;
+                margin-top: 10vh;
+            }
+        }
+    }
+}

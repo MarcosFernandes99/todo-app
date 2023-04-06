@@ -1,8 +1,10 @@
+import { Todo } from "./Components/Todo"
+
 function App() {
 
   return (
     <div>
-      Olá Mundo
+      <Todo/>
     </div>
   )
 }
